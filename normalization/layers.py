@@ -1,4 +1,4 @@
-import tensorflow as tf
+import tensorflow as tf 
 
 class AdaptativeContextNormalizationBase(tf.keras.layers.Layer):
     def __init__(self, epsilon=1e-3, **kwargs):
