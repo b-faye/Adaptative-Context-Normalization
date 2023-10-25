@@ -42,7 +42,16 @@ class AdaptativeContextNormalizationBase(tf.keras.layers.Layer):
         )
 
         super(AdaptativeContextNormalizationBase, self).build(input_shape)
-
+        
+        
+    def config(self):
+        config = super().get_config().copy()
+        config.update({
+        	"epsilon": self.epsilon
+        })
+        return config
+        
+        
     def call(self, inputs):
         """
         Apply the Adaptative Context Normalization to the input data.
@@ -114,6 +123,14 @@ class AdaptativeContextNormalization(tf.keras.layers.Layer):
             trainable=True
         )
         super(AdaptativeContextNormalization, self).build(input_shape)
+        
+    def config(self):
+        config = super().get_config().copy()
+        config.update({
+        	"num_contexts": self.num_contexts
+        	"epsilon": self.epsilon
+        })
+        return config
 
     def call(self, inputs):
         """
