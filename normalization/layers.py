@@ -127,7 +127,7 @@ class AdaptativeContextNormalization(tf.keras.layers.Layer):
     def config(self):
         config = super().get_config().copy()
         config.update({
-        	"num_contexts": self.num_contexts
+        	"num_contexts": self.num_contexts,
         	"epsilon": self.epsilon
         })
         return config
