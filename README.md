@@ -1,5 +1,10 @@
 # <center>**Adaptative Context Normalization**</center>
 
+## Paper Submitted to ICIP 2024. Bilal FAYE et al.
+- Title: Adaptative Context Normalization
+- Conference: International Conference on Image Processing (ICIP) 2024
+
+  
 This repository is an official implementation and applications of ACN: Adaptative Context Normalization.
 
 ## Introduction
