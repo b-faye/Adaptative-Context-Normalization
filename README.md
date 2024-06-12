@@ -136,3 +136,16 @@ To apply ACN coherently, we implement unsupervised domain adaptation using [AdaM
 | AdaMatch+ACN-base    | 43.10     | 53.83      | 43.10   | 47.46     |
 |                        |           |            |         |           |
 | AdaMatch+ACN         | **54.70** | **59.74**  | **54.70** | **54.55** |
+
+## Citing Adaptive Context Normalization (ACN)
+
+If you find ACN useful in your research, please consider citing:
+
+```bash
+@inproceedings{faye2024adaptative,
+  title={Adaptative Context Normalization: A Boost for Deep Learning in Image Processing},
+  author={Faye, Bilal and Azzag, Hanane and Lebbah, Mustapha and Bouchaffra, Djamel},
+  booktitle={IEEE International Conference on Image Processing (ICIP)},
+  year={2024}
+}
+```
